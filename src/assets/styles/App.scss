@@ -1,5 +1,15 @@
+@import "./Vars.scss";
+@import "./Media.scss";
 body {
-  background-color: rebeccapurple;
   margin: 0;
-  color: white;
+  font-family: $theme-font;
+  background: $background-Color;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
